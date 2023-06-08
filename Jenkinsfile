@@ -46,6 +46,11 @@ pipeline {
                 }
             }
         }
+        stage('Branch') {
+            agent any
+            steps {
+                echo 'nom-de-la-branche'
+            }
+        }
     }
-    echo name-of-the-branch
 }
