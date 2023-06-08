@@ -47,4 +47,5 @@ pipeline {
             }
         }
     }
+    echo name-of-the-branch
 }
